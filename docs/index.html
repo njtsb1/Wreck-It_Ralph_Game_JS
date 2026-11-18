@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detona Ralph</title>
+
+    <link rel="icon" href="./assets/favicon.jpg">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+
+<body data-theme="dark">
+
+    <header class="topbar">
+        <h1 id="game-title">Detona Ralph</h1>
+
+        <div class="controls">
+            <select id="language" aria-label="Select language">
+                <option value="en">English</option>
+                <option value="pt">Português</option>
+                <option value="es">Español</option>
+            </select>
+
+            <button id="themeToggle" aria-label="Toggle theme">🌙</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="scoreboard" aria-label="Game information">
+            <div>
+                <span id="timeLabel">Time</span>
+                <h2 id="time-left">60</h2>
+            </div>
+
+            <div>
+                <span id="scoreLabel">Score</span>
+                <h2 id="score">0</h2>
+            </div>
+
+            <div class="lives-box">
+                <img src="./assets/player.png" alt="Player icon">
+                <h2>x3</h2>
+            </div>
+        </section>
+
+        <section class="game-area" aria-label="Game board">
+            <div class="panel">
+                <div class="square" data-id="1"></div>
+                <div class="square" data-id="2"></div>
+                <div class="square" data-id="3"></div>
+
+                <div class="square" data-id="4"></div>
+                <div class="square" data-id="5"></div>
+                <div class="square" data-id="6"></div>
+
+                <div class="square" data-id="7"></div>
+                <div class="square" data-id="8"></div>
+                <div class="square" data-id="9"></div>
+            </div>
+        </section>
+    </main>
+
+    <script src="./scripts/script.js"></script>
+</body>
+</html>
