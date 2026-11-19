@@ -51,6 +51,8 @@ This project includes:
 
 Project created for study purposes and JavaScript practice during the Digital Innovation One challenge.
 
+![Screenshot web demo](docs/assets/Screenshot_web_demo.png)
+
 See [repository original](https://github.com/digitalinnovationone/jsgame-detona-ralph).
 
 [LICENSE](/LICENSE)
